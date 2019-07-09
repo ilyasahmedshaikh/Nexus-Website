@@ -149,12 +149,17 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .services .serviceBox .line
 {
-    /* position: absolute; */
     width: 33px;
     height: 2px;
     background: #eea739;
     left: 20px;
-    bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 22px;
+}
+
+.services .serviceBox .content
+{
+    padding: 0 15px 15px 15px;
 }
 
 .services .serviceBox:hover
