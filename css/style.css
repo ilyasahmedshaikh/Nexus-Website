@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .top-bar .social a
 {
     color: white;
+    text-decoration: none;
 }
 
 .top-bar ul {
@@ -58,11 +59,24 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border-right: 0;
 }
 
+.top-bar .social i:hover
+{
+    color: #eea739;
+}
+
+.top-bar .social span:hover
+{
+    color: #eea739;
+}
+
 .navi-bar
 {
     position: fixed;
     width: 100%;
     transition: 0.3s;
+    z-index: 2;
+    padding: 10px;
+
 }
 
 .scroll-nav-change{
@@ -76,10 +90,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
     height: 35px;;
 }
 
-.navi-bar
+.navi-bar .navi
 {
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 5px;
 }
 
 .navi-bar .navi ul
@@ -100,6 +113,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
     color: white;
     text-decoration: none;
     font-size: 16px;
+}
+
+.navi-bar .navi a:hover
+{
+    color: #eea739;
 }
 
 .services
